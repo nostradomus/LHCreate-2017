@@ -5,3 +5,5 @@ Award-winning project for LHCreate 2017 hackaton at CERN's IdeaSquare.
 The inverse escape room game     -      Break into CERN !
 
 Comming soon.............
+
+![teaser - what it looks like....](images/front.png)
