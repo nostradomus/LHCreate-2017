@@ -72,7 +72,7 @@ void setup() {
   Serial.println(".");
   Serial.println("*********************************************************");
   Serial.println("**                   LHCreate - (c)2017                **");
-  Serial.println("*                       central cube");
+  Serial.println("*                       central cube                    *");
   Serial.println("**    Developed by The Nostradomus Engineering Team    **");
   Serial.println("*");
   Serial.println("*  - Serial communication initialized");
