@@ -11,7 +11,7 @@ v1.0    | pinball_cube.ino | cleaned-up and commented version, as used during th
 The above Arduino sketches are to be loaded in the ATmega328p chip of the respective µ-controller board.
 
 ### External libraries
-Some of these sketches require external libraries. Please check below table for cross-references. This source folder also contains snapshots from these libraries at the time of built (tested version). Libraries can be installed using the [standard procedure](https://www.arduino.cc/en/Guide/Libraries).
+Some of these sketches require external libraries. Please check below table for cross-references. This source folder also contains snapshots from these libraries at the time of build (tested version). Libraries can be installed using the [standard procedure](https://www.arduino.cc/en/Guide/Libraries).
 
 library        | to be used in    | origin                                               | docs                                                     | notes
 ---------------|------------------|------------------------------------------------------|----------------------------------------------------------|------------------------------------
