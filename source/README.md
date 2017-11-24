@@ -11,9 +11,9 @@ v1.0    | pinball_cube.ino | cleaned-up and commented version, as used during th
 The above Arduino sketches are to be loaded in the ATmega328p chip of the respective µ-controller board.
 
 ### External libraries
-Some of these sketches require external libraries. Please check below table for cross-references. This source folder also contains snapshots from these libraries at the time of built (tested version).
+Some of these sketches require external libraries. Please check below table for cross-references. This source folder also contains snapshots from these libraries at the time of built (tested version). Libraries can be installed using the [standard procedure](https://www.arduino.cc/en/Guide/Libraries).
 
-library        | to be used in    | origin                                               | notes
----------------|------------------|------------------------------------------------------|------------------------------------
-lib-tm1638.zip | central_cube.ino | [link](https://github.com/rjbatista/tm1638-library/) | to be used for the 16-digit display
-
+library        | to be used in    | origin                                               | docs                                                     | notes
+---------------|------------------|------------------------------------------------------|----------------------------------------------------------|------------------------------------
+lib-tm1638     | central_cube.ino | [link](https://github.com/rjbatista/tm1638-library/) | [link](https://github.com/rjbatista/tm1638-library/wiki) | to be used for the 16-digit display
+lib-LedControl | pinball_cube.ino | [link](https://github.com/wayoda/LedControl/)        | [link](http://wayoda.github.io/LedControl/)              | to be used for the 8x8 LED display module
