@@ -1,9 +1,12 @@
-# LHCreate-2017
+# [![LHCreate-2017](images/eventLogo-300px.png)](https://lhcreate.web.cern.ch)
 
-Award-winning project for LHCreate 2017 hackaton at CERN's IdeaSquare.
+This repository contains information, design, schematics, drawings... concerning the 
+Award-winning project for the LHCreate 2017 hackaton at CERN's IdeaSquare.
 
-The inverse escape room game     -      Break into CERN !
+## The inverse escape room game     -      Break into CERN !
 
-Comming soon.............
+More comming soon.............
 
 ![teaser - what it looks like....](images/front.png)
+
+
