@@ -1,5 +1,5 @@
 //****************************************************
-//**                 LHCreate                       **
+//**             LHCreate - 2017                    **
 //**               Central cube                     **
 //**   author : Carl - (c)2017                      **
 //**   version : 1.0                                **
@@ -28,7 +28,7 @@
          | [ ]GND                              |
          | [ ]Vin                         7[ ] |   
          |                                6[ ]~|   
-         | [ ]A0                          5[ ]~|   
+         | [ ]A0                          5[O]~|----SOUND-HORN------5V   
          | [ ]A1                          4[I] |----START-BUTTON----GND
          | [ ]A2                     INT1/3[O]~|----TM1640-DATA-----+\
          | [ ]A3                     INT0/2[O] |----TM1640-CLOCK----+ |JY-LM1640
@@ -172,6 +172,4 @@ void displayGameOverMessage()
     sprintf(text, "  --GAME OVER-- ");
     module.setDisplayToString(text); 
 }
-
-
 
