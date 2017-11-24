@@ -11,32 +11,32 @@
 // v1.0 : original version for the presentation, with minor (visual) improvements
 
 /*
-                                      +-----+
-         +----[PWR]-------------------| USB |--+
-         |                            +-----+  |
-         |           GND/RST2  [ ] [ ]         |
-         |         MOSI2/SCK2  [ ] [ ]  SCL[ ] |   
-         |            5V/MISO2 [ ] [ ]  SDA[ ] |   
-         |                             AREF[ ] |
-         |                              GND[ ] |
-         | [ ]N/C                    SCK/13[ ] |   
-         | [ ]v.ref                 MISO/12[ ] |   
-         | [ ]RST                   MOSI/11[ ]~|   
-         | [ ]3V3                        10[ ]~|   
-         | [ ]5v                          9[ ]~|   
-         | [ ]GND                         8[ ] |   
-         | [ ]GND                              |
-         | [ ]Vin                         7[ ] |   
-         |                                6[ ]~|   
-         | [ ]A0                          5[O]~|----SOUND-HORN------5V   
-         | [ ]A1                          4[I] |----START-BUTTON----GND
-         | [ ]A2                     INT1/3[O]~|----TM1640-DATA-----+\
-         | [ ]A3                     INT0/2[O] |----TM1640-CLOCK----+ |JY-LM1640
-         | [ ]A4      RST SCK MISO     TX>1[ ] |                5V--+ |16-digit display
-         | [ ]A5      [ ] [ ] [ ]      RX<0[ ] |                GND-+/
-         |  ARDUINO   [ ] [ ] [ ]              |
-         |  UNO_R3    GND MOSI 5V  ____________/
-          \_______________________/
+                                +-----+
+   +----[PWR]-------------------| USB |--+
+   |                            +-----+  |
+   |           GND/RST2  [ ] [ ]         |
+   |         MOSI2/SCK2  [ ] [ ]  SCL[ ] |   
+   |            5V/MISO2 [ ] [ ]  SDA[ ] |   
+   |                             AREF[ ] |
+   |                              GND[ ] |
+   | [ ]N/C                    SCK/13[ ] |   
+   | [ ]v.ref                 MISO/12[ ] |   
+   | [ ]RST                   MOSI/11[ ]~|   
+   | [ ]3V3                        10[ ]~|   
+   | [ ]5v                          9[ ]~|   
+   | [ ]GND                         8[ ] |   
+   | [ ]GND                              |
+   | [ ]Vin                         7[ ] |   
+   |                                6[ ]~|   
+   | [ ]A0                          5[O]~|----SOUND-HORN------5V   
+   | [ ]A1                          4[I] |----START-BUTTON----GND
+   | [ ]A2                     INT1/3[O]~|----TM1640-DATA-----+\
+   | [ ]A3                     INT0/2[O] |----TM1640-CLOCK----+ |JY-LM1640
+   | [ ]A4      RST SCK MISO     TX>1[ ] |                5V--+ |16-digit display
+   | [ ]A5      [ ] [ ] [ ]      RX<0[ ] |                GND-+/
+   |  ARDUINO   [ ] [ ] [ ]              |
+   |  UNO_R3    GND MOSI 5V  ____________/
+    \_______________________/
 */
 
 //***************************************************
@@ -172,4 +172,5 @@ void displayGameOverMessage()
     sprintf(text, "  --GAME OVER-- ");
     module.setDisplayToString(text); 
 }
+
 
