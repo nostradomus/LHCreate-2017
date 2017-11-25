@@ -17,3 +17,4 @@ library        | to be used in    | origin                                      
 ---------------|------------------|------------------------------------------------------|----------------------------------------------------------|------------------------------------
 lib-tm1638     | central_cube.ino | [link](https://github.com/rjbatista/tm1638-library/) | [link](https://github.com/rjbatista/tm1638-library/wiki) | to be used for the 16-digit display
 lib-LedControl | pinball_cube.ino | [link](https://github.com/wayoda/LedControl/)        | [link](http://wayoda.github.io/LedControl/)              | to be used for the 8x8 LED display module
+lib-LedControl | feynman_cube.ino | [link](https://github.com/wayoda/LedControl/)        | [link](http://wayoda.github.io/LedControl/)              | to be used for the 8x8 LED display module
