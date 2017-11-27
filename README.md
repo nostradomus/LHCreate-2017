@@ -14,7 +14,7 @@ Scientists, often fascinated by their very specific field of competence, easily 
 
 A heterogeneous mix of enthusiastic people, who never met each other before, have been put together in a blue container for two days. Ok, let's give them some names... Claudia, James,  Laura, Maëlys, Marina and Carl started brainstorming on the subject. After a couple of hours of crazy ideas from the physicists, engineers and IT'ers, they hit the brakes, and started involving their artistic designers. Now things really got moving. Finally, an interactive, scientifically correct exhibit, which also looked good, was born !
 
-### The inverse escape room game     -      Break into CERN !
+### :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: The inverse escape room game - Break into CERN ! :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:  
 
 ## The result
 
