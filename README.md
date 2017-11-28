@@ -16,6 +16,10 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 ### :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: The inverse escape room game - Break into CERN ! :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:  
 
+#### Reveal the four-digit pin-code !!
+
+![digit 1](images/code-display.gif) ![digit 2](images/code-display.gif) ![digit 3](images/code-display.gif) ![digit 4](images/code-display.gif)
+
 ## The result
 
 More coming soon.............
@@ -43,8 +47,6 @@ More coming soon.............
 #### µ-Controller board
 
 The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the communication with the different displays and addressable RGB LED's.
-
-![Reveal the code !](images/code-display.gif)
 
 More coming soon.............
 
