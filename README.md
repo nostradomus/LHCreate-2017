@@ -20,10 +20,6 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 ![digit 1](images/code-display.gif) ![digit 2](images/code-display.gif) ![digit 3](images/code-display.gif) ![digit 4](images/code-display.gif)
 
-## The game
-
-More coming soon.............
-
 ![teaser - what it looks like....](images/front.png)
 
 ## Progress status
