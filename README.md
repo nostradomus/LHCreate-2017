@@ -69,7 +69,7 @@ Below firmware is available in the [source folder](source/) :
 version | name                                        | description
 --------|---------------------------------------------|--------------------------------------------------------------------------------------------
 v1.0    | [central_cube.ino](source/central_cube.ino) | cleaned-up and commented version, with improved display animation, and sound
-v1.0    | [feynman_cube.ino](source/feynman_cube.ino) | ...coming soon...
+v1.0    | [feynman_cube.ino](source/feynman_cube.ino) | cleaned-up and commented version, with improved digits, two different animations, and sound
 v1.0    | [pinball_cube.ino](source/pinball_cube.ino) | cleaned-up and commented version, with improved digits, two different animations, and sound
 
 ### Mechanical construction
