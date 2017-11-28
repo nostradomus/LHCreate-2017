@@ -44,6 +44,8 @@ More coming soon.............
 
 The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the communication with the different displays and addressable RGB LED's.
 
+![Reveal the code !](images/code-display.gif)
+
 More coming soon.............
 
 #### Communication board
