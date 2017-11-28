@@ -37,7 +37,7 @@
 //***************************************************
 //**             library section                   **
 //***************************************************
-#include "LedControl.h"                  // libraries for the 8x8 LED matrix display (https://github.com/wayoda/LedControl)
+#include "LedControl.h"                  // library for the 8x8 LED matrix display (https://github.com/wayoda/LedControl)
 
 //***************************************************
 //**            constants section                  **
@@ -52,7 +52,7 @@
 //***************************************************
 LedControl lc = LedControl(12,11,10,1);  // DIN-pin, CLK-pin, CS-pin, number of connected display modules
 unsigned long lastAnimationChange;       // timecounter for the animation when playing
-int currentMiddle = 1;                   // currently shown frame of the animation
+int currentAnimationFrame = 1;           // currently shown frame of the animation
 unsigned long lastNumberChange;          // timecounter for the numberspinner-animation when playing
 unsigned long ballDetectedTimestamp;     // timestamp (in millis) when the ball was detected
 bool showCodeDigit;                      // player applied correct energy => show code digit for a certain time
@@ -266,7 +266,7 @@ void setup() {
   pinMode(soundHornPIN, OUTPUT);
   digitalWrite(soundHornPIN, HIGH);
   Serial.println("*  - Digital inputs and outputs configured");
-  lc.shutdown(0,false);                       // initialise the display
+  lc.shutdown(0,false);                       // initialise the 8x8 matrix display
   lc.setIntensity(0,1);                       // set initial brightness level
   lc.clearDisplay(0);                         // clear the display
   Serial.println("*  - Display initialised");
@@ -305,7 +305,7 @@ void loop() {
   // update the display
   if (showCodeDigit) {
     //TODO: obtain the code for the on-going game from the central cube 
-    //      (a specific digit has currently been hard-coded for the presentation)
+    //      (a random digit has currently been hard-coded for the presentation)
     showBitmap(one,15);
     // the soundhorn will briefly beep every second, as long as the winning code digit is visible
     if ((millis() - ballDetectedTimestamp) > (beeps * 1000)) {
@@ -341,7 +341,7 @@ void showBitmap(byte bitmap[], int brightness)
 void framesAnimation()
 {
   if ((lastAnimationChange == 0) or ((millis() - lastAnimationChange) >= 600)) {
-    switch (currentMiddle) {
+    switch (currentAnimationFrame) {
       case 1:
         showBitmap(animationFrame1,8);
         break;
@@ -361,9 +361,9 @@ void framesAnimation()
         showBitmap(animationFrame2,6);
         break;
     }
-    currentMiddle++;
-    if (currentMiddle > 6) {
-      currentMiddle = 1;
+    currentAnimationFrame++;
+    if (currentAnimationFrame > 6) {
+      currentAnimationFrame = 1;
     }
     lastAnimationChange = millis();
   }
@@ -409,4 +409,3 @@ void numberSpinner()
     lastNumberChange = millis();
   }    
 }
-
