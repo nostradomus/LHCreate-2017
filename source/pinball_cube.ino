@@ -372,7 +372,7 @@ void framesAnimation()
 // helper function, to animate the display with random numbers
 void numberSpinner()
 {
-  if ((lastNumberChange == 0) or ((millis() - lastNumberChange) >= 75)) {
+  if ((lastNumberChange == 0) or ((millis() - lastNumberChange) >= 65)) {
     int randomNumber = random(1, 10);
     switch (randomNumber) {
       case 1:
