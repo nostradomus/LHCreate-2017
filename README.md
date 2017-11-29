@@ -78,6 +78,8 @@ The housing consists of several layers of lasercut and engraved plexi plates (3 
 
 ### Building instructions
 
+![modular concept....](images/modularity.png)
+
 More coming soon.............
 
 ## Contributors
