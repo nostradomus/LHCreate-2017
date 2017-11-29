@@ -16,7 +16,7 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 ### :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: The inverse escape room game - Break into CERN ! :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:  
 
-#### Reveal the four-digit pin-code !!
+#### Reveal the four-digit pin-code to open the safe !!
 
 ![digit 1](images/code-display.gif) ![digit 2](images/code-display.gif) ![digit 3](images/code-display.gif) ![digit 4](images/code-display.gif)
 
@@ -86,6 +86,8 @@ The housing for the electronics consists of several layers of lasercut and engra
 ![modular concept....](images/modularity.png)
 
 More coming soon.............
+
+![sneak preview on the exhibit....](images/exhibit.png)
 
 ## Contributors
 
