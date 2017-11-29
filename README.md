@@ -2,7 +2,7 @@
 
 ## What
 
-In November 2017, Cern launched a competition to design an exhibit prototype for the [LHC accelerator](https://home.cern/topics/large-hadron-collider), explaining “why we do what we do” at [Cern](https://home.cern).
+In November 2017, [CMS](https://home.cern/about/experiments/cms) and [ATLAS](https://home.cern/about/experiments/atlas) (both [Cern](https://home.cern) experiments), launched a competition to design an exhibit prototype for the [LHC accelerator](https://home.cern/topics/large-hadron-collider), explaining “**why we do what we do**” at [Cern](https://home.cern).
 
 This repository contains information, design, schematics, drawings... concerning the award-winning project for this [LHCreate 2017 hackathon]((https://lhcreate.web.cern.ch)) at [Cern](https://home.cern)'s [IdeaSquare](http://ideasquare-dev.web.cern.ch).
 
@@ -103,4 +103,4 @@ So, today, if you like it, have fun with it (at your own risk of course :-D), an
 
 Oh, and when using anything from this repository, it is highly appreciated if you mention its origin.
 
-If you would like to use any of this work (or the whole project) for commercial use, first [contact me :email:](http://nostradomus.ddns.net/contactform.html), so we can add the appropriate license, which best fits your business.
+If you would like to use any of this work (or the whole project) for commercial use, first [contact us :email:](http://nostradomus.ddns.net/contactform.html), so we can add the appropriate license, which best fits your business.
