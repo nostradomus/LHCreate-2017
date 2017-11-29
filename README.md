@@ -2,9 +2,9 @@
 
 ## What
 
-In November 2017, Cern launched a competition to design an exhibit prototype for the LHC accelerator, explaining “why we do what we do” at Cern.
+In November 2017, Cern launched a competition to design an exhibit prototype for the [LHC accelerator](https://home.cern/topics/large-hadron-collider), explaining “why we do what we do” at [Cern](https://home.cern).
 
-This repository contains information, design, schematics, drawings... concerning the award-winning project for this LHCreate 2017 hackathon at CERN's IdeaSquare.
+This repository contains information, design, schematics, drawings... concerning the award-winning project for this [LHCreate 2017 hackathon]((https://lhcreate.web.cern.ch)) at [Cern](https://home.cern)'s [IdeaSquare](http://ideasquare-dev.web.cern.ch).
 
 ## Why
 
@@ -25,13 +25,16 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 ## Progress status
 
  - [x] have a [crazy idea](#how)
- - [x] write the [functional specifications](#how)
- - [x] build an air-wire/breadboard [prototype](#how)
+ - [x] decide on what is should [look](#how) like
+ - [x] make it [interactive](#how)
+ - [x] design and build a prototype [state-of-the-art housing](#mechanical-construction)  
+ - [x] build air-wire/breadboard [prototype electronics](#how)
+ - [ ] publish [mechanical build-files](pdf-files/) for the prototype
  - [x] publish (cleaned-up) prototype [code for the µ-controller](source/)
+ - [ ] design and build a [public-proof housing](#mechanical-construction)
  - [ ] design a descent [electronics](#electronics) board
- - [ ] build a proof-of-concept for the final [electronics](#electronics)
- - [ ] write [code for the µ-controller](#µ-controller-code) respecting best-practices
- - [ ] design and build a [state-of-the-art housing](#mechanical-construction)
+ - [ ] build a proof-of-concept for the final [electronics](#electronics) with appropriate [code for the µ-controller](#µ-controller-code)
+ - [ ] design and build a [public-proof housing](#mechanical-construction) for the exhibit
  - [ ] write an [end-user manual](https://github.com/nostradomus/LHCreate-2017/wiki)
 
 ## Technical details
