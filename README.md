@@ -4,7 +4,7 @@
 
 In November 2017, [CMS](https://home.cern/about/experiments/cms) and [ATLAS](https://home.cern/about/experiments/atlas) (both [Cern](https://home.cern) experiments), launched a competition to design an exhibit prototype for the [LHC accelerator](https://home.cern/topics/large-hadron-collider), explaining “**why we do what we do**” at [Cern](https://home.cern).
 
-This repository contains information, design, schematics, drawings... concerning the award-winning project for this [LHCreate 2017 hackathon](https://lhcreate.web.cern.ch)) at [Cern](https://home.cern)'s [IdeaSquare](http://ideasquare-dev.web.cern.ch).
+This repository contains information, design, schematics, drawings... concerning the award-winning project for this [LHCreate 2017 hackathon](https://lhcreate.web.cern.ch) at [Cern](https://home.cern)'s [IdeaSquare](http://ideasquare-dev.web.cern.ch).
 
 ## Why
 
