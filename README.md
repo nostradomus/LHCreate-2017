@@ -49,6 +49,12 @@ The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega32
 
 More coming soon.............
 
+#### 16-digit display module
+
+For the countdown timer in the central cube, a 16-digit 7-segment display module, which was lying around, has been used. After the hackathon, it turned out that the module was commercially not available anymore.
+
+As all the required components can still easily be sourced, it was decided to redesign a pcb with the original components for future integration. All design-files and necessary information can be found in the [concerning repository](https://github.com/nostradomus/tm1640_16-digit_display).
+
 #### Communication board
 
 More coming soon.............
