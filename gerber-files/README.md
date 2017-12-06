@@ -8,4 +8,4 @@ This folder contains all gerber files required to have the printed circuit board
   - solder mask (STS)
   - silk screen (PLS)
 - Drilling : (excellon)
-  - drilling instructions (DRD)
+  - drilling instructions (DRD) 
