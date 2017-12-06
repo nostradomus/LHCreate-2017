@@ -16,7 +16,7 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 ### :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: The inverse escape room game - Break into CERN ! :sparkles: :sparkles: :sparkles: :sparkles: :sparkles: :sparkles:  
 
-#### Reveal the four-digit pin-code to open the safe !!
+#### Reveal the four-digit pin-code to open the vault !!
 
 ![digit 1](images/code-display.gif) ![digit 2](images/code-display.gif) ![digit 3](images/code-display.gif) ![digit 4](images/code-display.gif)
 
@@ -26,7 +26,7 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 ## How to play the game
 
-The four modules around the central cube each contain an enigma to solve. When having found a solution, a digit will appear in the concerning module. The combination of these four digits can then be combined to a pin-code to open the safe in the central cubicle. It will give access to......... Ok, that you will have to find out yourself :wink:
+The four modules around the central cube each contain an enigma to solve. When having found a solution, a digit will appear in the concerning module. The combination of these four digits can then be combined to a pin-code to open the vault in the central cubicle. It will give access to......... Ok, that you will have to find out yourself :wink:
 
 The enigmas in the modules have been built around a variety of subjects which trigger the curiosity of both scientists and engineers at [Cern](https://home.cern). Each of the enigmas represent an important group of researchers working in and around the accelerator complex in Geneva. It all starts with a theory. Next the experimentalists accelerate particles in the 'big' machine, to make collisions for the researchers in their detectors. Finally, data scientists will process huge amounts of information to filter out what we really want to know.
 
@@ -107,7 +107,7 @@ v1.0    | [pinball_cube.ino](source/pinball_cube.ino) | cleaned-up and commented
 
 ### Mechanical construction
 
-The prototype housing has been built with ultra-light sandwich panels. The front and side panels for this modular housing have been designed using [Adobe InDesign](http://www.adobe.com/products/indesign.html). different files have been exported to [pdf format](pdf-files/) for easy printing on a plotter-like printer (A1 size required).
+The prototype housing has been built with ultra-light sandwich panels. The front and side panels for this modular housing have been designed using [Adobe InDesign](http://www.adobe.com/products/indesign.html). different files have been exported to [pdf format](pdf-files/modules-graphical_design.pdf) for easy printing on a plotter-like printer (A1 size required).
 
 The housing for the electronics consists of several layers of lasercut and engraved plexi plates (3 & 6mm). The required files to cut out these plexi sheets are available both in [.cdr or CorelDraw format](laser-cutting-files/) or in [pdf format](pdf-files/). A legend on which color to use for which action (contour cutting, inside cut-outs, engraving) is available as an instruction in the [readme document](laser-cutting-files/README.md) which is accompanying the files.
 
