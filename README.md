@@ -22,7 +22,7 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 #### It's all about curiosity...
 
-![teaser - what it looks like....](images/front.png)
+![teaser - what it looks like....](images/front_full.png)
 
 ## How to play the game
 
