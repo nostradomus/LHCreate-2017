@@ -20,9 +20,33 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 ![digit 1](images/code-display.gif) ![digit 2](images/code-display.gif) ![digit 3](images/code-display.gif) ![digit 4](images/code-display.gif)
 
+#### It's all about curiosity...
+
 ![teaser - what it looks like....](images/front.png)
 
-## Progress status
+## How to play the game
+
+The four modules around the central cube each contain an enigma to solve. When having found a solution, a digit will appear in the concerning module. The combination of these four digits can then be combined to a pin-code to open the safe in the central cubicle. It will give access to......... Ok, that you will have to find out yourself :wink:
+
+The enigmas in the modules have been built around a variety of subjects which trigger the curiosity of both scientists and engineers at [Cern](https://home.cern). Each of the enigmas represent an important group of researchers working in and around the accelerator complex in Geneva. It all starts with a theory. Next the experimentalists accelerate particles in the 'big' machine, to make collisions for the researchers in their detectors. Finally, data scientists will process huge amounts of information to filter out what we really want to know.
+
+### The Theory
+
+...
+
+### The Accelerator
+
+...
+
+### The Detector
+
+...
+
+### The Results
+
+...  
+
+## Project progress status
 
  - [x] have a [crazy idea](#how)
  - [x] decide on what is should [look](#how) like
