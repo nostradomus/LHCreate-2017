@@ -61,7 +61,7 @@ The enigmas in the modules have been built around a variety of subjects which tr
  - [ ] design and build a [public-proof housing](#mechanical-construction) for the exhibit
  - [ ] write an [end-user manual](https://github.com/nostradomus/LHCreate-2017/wiki)
 
-## Technical details
+## How to build your own (technical details)
 
 ### Electronics
 
