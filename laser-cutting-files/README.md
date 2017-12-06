@@ -21,4 +21,3 @@ The cutting and engraving have been performed on a [Trotec Speedy 100R](https://
 ![Trotec settings 6mm](../images/trotec_settings_6mm.png)
 
 The compressed file [```digital-font.zip```](digital-font.zip) contains part of the .ttf font-files which have been used for the engraving. They might not be installed on your system. It concerns a free (for personal use) font which was downloaded from the internet somewhere in the 20th century, for which unfortunately the referring website does not exist anymore (http://digitalfont.hypermart.net). The second font, which is used for the optional training front plate, should be part of your operating system. If not, it is available in [```OCR-font.zip```](OCR-font.zip).
-
