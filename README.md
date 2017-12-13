@@ -56,7 +56,7 @@ Decrypt the [visual cryptogram](https://en.wikipedia.org/wiki/Visual_cryptograph
  - [ ] publish [mechanical build-files](pdf-files/) for the prototype
  - [x] publish (cleaned-up) prototype [code for the µ-controller](source/)
  - [ ] design and build a [public-proof housing](#mechanical-construction)
- - [ ] design a descent [electronics](#electronics) board
+ - [x] design a descent [electronics](#electronics) board
  - [ ] build a proof-of-concept for the final [electronics](#electronics) with appropriate [code for the µ-controller](#µ-controller-code)
  - [ ] design and build a [public-proof housing](#mechanical-construction) for the exhibit
  - [ ] write an [end-user manual](https://github.com/nostradomus/LHCreate-2017/wiki)
@@ -67,13 +67,13 @@ Decrypt the [visual cryptogram](https://en.wikipedia.org/wiki/Visual_cryptograph
 
 #### µ-Controller board
 
-The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the communication with the different displays and addressable RGB LED's.
+The brain of the system is based on an [ATmega328p](pdf-files/datasheet - ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the communication with the different displays and addressable RGB LED's.
 
 As the final system should both be easily reproducible, and be of professional build quality, a universal [eco-system](https://en.wikipedia.org/wiki/Digital_ecosystem) has been designed. Below a simulation of the first PCB iteration :
 
 [![PCB - component side](images/component_side-frontal_view-s.png)](images/component_side-frontal_view.png) [![PCB - copper side](images/copper_side-frontal_view-s.png)](images/copper_side-frontal_view.png)
 
-With all respect to our [artistic front-end specialists](https://www.ipac-design.ch), the all-over design has been respected up to the PCB layout. The board is having five modules as well. The electronics have been combined in such a way, that the same board can be used in all individual modules of the "break-in game". On the sides of the board, standard industrial screw-terminals have been foreseen for the peripherals and their power supply. To power the system, a standard µ-USB connection will be sufficient as power input for all the equipment (adapter of at least 1.5A).
+With respect to our [artistic specialists](https://www.ipac-design.ch), the project's design has been respected up to the PCB layout. The board is having five modules as well. The electronics have been combined in such a way, that the same board can be used in all individual modules of the "break-in game". On the sides of the board, standard industrial screw-terminals have been foreseen for the peripherals and their power supply. To power the system, a standard µ-USB connection will be sufficient as power input for all the equipment (adapter of at least 1.5A).
 
 The central square houses the brain of the system. It consists of a stream-line µ-controller with basic circuits for to fit the needs of all the different cubes. The oscillator combination X1,C3,C4 provides a stable clock for the countdown timer, and serial communication with the external devices (NeoPixel led's, displays...). L1,C2 are filtering the power line for the analogue inputs (pinball plunger). R2,S1 offer the possibility to reset the system without having to unplug the power. CON2 is a standard 6-pin ICSP header to load the firmware into the µ-controller. Each module has its own firmware, which can be run by the same board. In case you do not have a programmer at hand, all design-files and necessary build-information can be found in the [concerning repository](https://github.com/nostradomus/atmega88-168-328_programmer_shield). A serial-to-USB converter can be connected to CON3 for debugging purposes. I2C, being a very popular protocol, a CON4 has already been foreseen on the board, for future extensions.
 
@@ -87,7 +87,7 @@ As all the required components can still easily be sourced, it was decided to re
 
 #### Communication board
 
-More coming soon.............
+The modules are using wireless communication to receive the code to look for, and to report back failure or success to the central vault. For that matter, 10-pin [Nordic](http://www.nordicsemi.com) [nRF24L01+](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P) communication boards can be inserted in the MOD1 connector, in the bottom-right 'cube' of the µ-controller board. The concerning communication chip uses the serial SPI protocol to connect to µ-controller IC1. It shares MISO/MOSI/SCK with the ICSP connector CON2, but uses dedicated lines for chip selection and enabling (CS/CE). 
 
 ### µ-Controller code
 
