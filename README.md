@@ -26,7 +26,7 @@ A heterogeneous mix of enthusiastic people, who never met each other before, hav
 
 ## How to play the game
 
-The four modules around the central cube each contain an enigma to solve. When having found a solution, a digit will appear in the concerning module. The combination of these four digits can then be combined to a pin-code to open the vault in the central cubicle. It will give access to......... Ok, that you will have to find out yourself :wink:
+The four modules around the central cube each contain an enigma to solve. When having found a solution, a digit will appear in the concerning module. The combination of these four digits can then be combined to a pin-code to open the vault in the central cubicle. It will give access to......... ok, that you will have to find out yourself :wink:
 
 The enigmas in the modules have been built around a variety of subjects which trigger the curiosity of both scientists and engineers at [Cern](https://home.cern). Each of the enigmas represent an important group of researchers working in and around the accelerator complex in Geneva. It all starts with a theory. Next the experimentalists accelerate particles in the 'big' machine, to make collisions for the researchers in their detectors. Finally, data scientists will process huge amounts of information to filter out what we really want to know.
 
@@ -72,6 +72,12 @@ The brain of the system is based on an [ATmega328p](pdf-files/datasheet-ATmega32
 As the final system should both be easily reproducible, and be of professional build quality, a universal [eco-system](https://en.wikipedia.org/wiki/Digital_ecosystem) has been designed. Below a simulation of the first PCB iteration :
 
 [![PCB - component side](images/component_side-frontal_view-s.png)](images/component_side-frontal_view.png) [![PCB - copper side](images/copper_side-frontal_view-s.png)](images/copper_side-frontal_view.png)
+
+With all respect to our [artistic front-end specialists](https://www.ipac-design.ch), the all-over design has been respected up to the PCB layout. The board is having five modules as well. The electronics have been combined in such a way, that the same board can be used in all individual modules of the "break-in game". On the sides of the board, standard industrial screw-terminals have been foreseen for the peripherals and their power supply. To power the system, a standard µ-USB connection will be sufficient as power input for all the equipment (adapter of at least 1.5A).
+
+The central square houses the brain of the system. It consists of a stream-line µ-controller with basic circuits for to fit the needs of all the different cubes. The oscillator combination X1,C3,C4 provides a stable clock for the countdown timer, and serial communication with the external devices (NeoPixel led's, displays...). L1,C2 are filtering the power line for the analogue inputs (pinball plunger). R2,S1 offer the possibility to reset the system without having to unplug the power. CON2 is a standard 6-pin ICSP header to load the firmware into the µ-controller. Each module has its own firmware, which can be run by the same board. In case you do not have a programmer at hand, all design-files and necessary build-information can be found in the [concerning repository](https://github.com/nostradomus/atmega88-168-328_programmer_shield). A serial-to-USB converter can be connected to CON3 for debugging purposes. I2C, being a very popular protocol, a CON4 has already been foreseen on the board, for future extensions.
+
+The bottom-left module takes care of the power supply. A logical choice, as the [pin-ball-particle-accelerator](#the-accelerator) is all about energy as well ! D1, a low-drop [Schottky](https://en.wikipedia.org/wiki/Schottky_diode) diode protects the system against reversed polarity. R1,LED1 are a first troubleshooting indicator to see if the board is powered correctly. C5 adds stability to the supply of the µ-controller. CON45,CON46 are screw-terminals to provide power to external equipment (+5V and Ground). The total power on these terminals should not exceed 1A (limited by D1).
 
 #### 16-digit display module
 
