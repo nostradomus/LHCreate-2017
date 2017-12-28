@@ -79,7 +79,7 @@ The central square houses the brain of the system. It consists of a stream-line 
 
 The bottom-left module takes care of the power supply. A logical choice, as the [pin-ball-particle-accelerator](#the-accelerator), situated in the same cube, is all about energy as well ! D1, a low-drop [Schottky](https://en.wikipedia.org/wiki/Schottky_diode) diode protects the system against reversed polarity. R1,LED1 are a first troubleshooting indicator to see if the board is powered correctly. C5 adds stability to the supply of the µ-controller. CON45,CON46 are screw-terminals to provide power to external equipment (+5V and Ground). The total power on these terminals should not exceed 1A (limited by D1).
 
-Fiducial markers FD1,FD2,FD3,FD4 are standard reference points for the pick-and-place robot in case of automated PCB building (SMT placement). 
+Fiducial markers FD1,FD2,FD3,FD4 are standard reference points for the pick-and-place robot in case of automated PCB building (SMT placement).
 
 #### 16-digit display module
 
@@ -89,7 +89,7 @@ As all the required components can still easily be sourced, it was decided to re
 
 #### Communication board
 
-The modules are using wireless communication to receive the code to look for, and to report back failure or success to the central vault. For that matter, 10-pin [Nordic](http://www.nordicsemi.com) [nRF24L01+](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P) communication boards can be inserted in the MOD1 connector, in the bottom-right 'cube' of the µ-controller board. The footprint also has an extension for the 8-pin type boards. Only one board should be fit at a time. The concerning communication chip uses the serial SPI protocol to connect to µ-controller IC1. It shares MISO/MOSI/SCK with the ICSP connector CON2, but uses dedicated lines for chip selection and enabling (CS/CE). IC2, C7 provides a the stabilized 3V3 power supply for the communication module. Buffer capacitor C8 will protect the µ-controller from resetting (power supply dips) during send bursts.
+The modules are using wireless communication to receive the code to look for, and to report back failure or success to the central vault. For that matter, 10-pin [Nordic](http://www.nordicsemi.com) [nRF24L01+](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P) communication boards can be inserted in the MOD1 connector, in the bottom-right 'cube' of the µ-controller board. The footprint is also having an extension for the 8-pin type boards. Only one board should be fit at a time. The concerning communication chip uses the serial SPI protocol to connect to µ-controller IC1. It shares MISO/MOSI/SCK with the ICSP connector CON2, but uses dedicated lines for chip selection and enabling (CS/CE). IC2, C7 provides a the stabilized 3V3 power supply for the communication module. Buffer capacitor C8 will protect the µ-controller from resetting (power supply dips) during send bursts.
 
 ### µ-Controller code
 
