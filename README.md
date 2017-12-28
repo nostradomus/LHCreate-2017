@@ -67,7 +67,7 @@ Decrypt the [visual cryptogram](https://en.wikipedia.org/wiki/Visual_cryptograph
 
 #### µ-Controller board
 
-The brain of the system is based on an [ATmega328p](pdf-files/datasheet - ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the communication with the different displays and addressable RGB LED's.
+The brain of the system is based on an [ATmega328p](pdf-files/datasheet_-_ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the communication with the different displays and addressable RGB LED's.
 
 As the final system should both be easily reproducible, and be of professional build quality, a universal [eco-system](https://en.wikipedia.org/wiki/Digital_ecosystem) has been designed. Below a simulation of the first PCB iteration :
 
