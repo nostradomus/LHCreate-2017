@@ -81,7 +81,7 @@ The central square houses the brain of the system. It consists of a stream-line 
 
 The bottom-left module takes care of the power supply. A logical choice, as the [pin-ball-particle-accelerator](#the-accelerator), situated in the same cube, is all about energy as well ! D1, a low-drop [Schottky](https://en.wikipedia.org/wiki/Schottky_diode) diode protects the system against reversed polarity. R1,LED1 are a first troubleshooting indicator to see if the board is powered correctly. C5 adds stability to the supply of the µ-controller. CON45,CON46 are screw-terminals to provide power to external equipment (+5V and Ground). The total power on these terminals should not exceed 1A (limited by D1).
 
-Fiducial markers FD1,FD2,FD3,FD4 are standard reference points for the pick-and-place robot in case of automated PCB building (SMT placement).
+Fiducial markers FD1,FD2,FD3,FD4 are standard reference points for the pick-and-place robot in case of automated PCB building (SMT placement). The required components are listed in the [bill of materials](/eco-system_BOM.md).
 
 #### 16-digit display module
 
