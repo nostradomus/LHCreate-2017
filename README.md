@@ -85,6 +85,14 @@ Fiducial markers FD1,FD2,FD3,FD4 are standard reference points for the pick-and-
 
 All used components are standard types, and can be easily sourced at any electronics supplier (such as RS, Farnell, Mouser...). The components, their values and package types are listed in the [bill of materials](/eco-system_BOM.md).
 
+#### USB programmer shield
+
+As described in [code for the µ-controller section](#µ-controller-code), the board has been fit with an ICSP-connector for programming through various programming devices. As an extra, a specific USB programmer shield has been developed within the philosophy of the eco-system. When using a µ-controller with proper bootloader, the system can be programmed serially. The USB programmer shield acts as a USB-to-serial converter.
+
+All information on how to roll-your-own can be found in the [dedicated repository](https://github.com/nostradomus/LHCreate___usb-programmer-shield).
+
+[![PCB](images/USBprogrammershield_board-s.png)](images/USBprogrammershield_board.png) [![Schematic](images/USBprogrammershield_schematic-s.png)](images/USBprogrammershield_schematic.png)
+
 #### 16-digit display module
 
 For the countdown timer in the central cube, a 16-digit 7-segment display module, which was lying around, has been used. After the hackathon, it turned out that the module was commercially not available anymore.
@@ -93,7 +101,7 @@ As all the required components can still easily be sourced, it was decided to re
 
 #### Communication board
 
-The modules are using wireless communication to receive the code to look for, and to report back failure or success to the central vault. For that matter, 10-pin [Nordic](http://www.nordicsemi.com) [nRF24L01+](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P) communication boards can be inserted in the MOD1 connector, in the bottom-right 'cube' of the µ-controller board. The footprint is also having an extension for the 8-pin type boards. Only one board should be fit at a time. The concerning communication chip uses the serial SPI protocol to connect to µ-controller IC1. It shares MISO/MOSI/SCK with the ICSP connector CON2, but uses dedicated lines for chip selection and enabling (CS/CE). IC2, C7 provides a the stabilized 3V3 power supply for the communication module. Buffer capacitor C8 will protect the µ-controller from resetting (power supply dips) during send bursts. Modules with a booster chip and external antenna should only be used in a setup, where the game modules are physically not too close together (to avoid transmission/reflection problems). With these modules, reliability might also be improved by upgrading capacitor C8 with a higher value (100µF/16V). 
+The modules are using wireless communication to receive the code to look for, and to report back failure or success to the central vault. For that matter, 10-pin [Nordic](http://www.nordicsemi.com) [nRF24L01+](http://www.nordicsemi.com/eng/Products/2.4GHz-RF/nRF24L01P) communication boards can be inserted in the MOD1 connector, in the bottom-right 'cube' of the µ-controller board. The footprint is also having an extension for the 8-pin type boards. Only one board should be fit at a time. The concerning communication chip uses the serial SPI protocol to connect to µ-controller IC1. It shares MISO/MOSI/SCK with the ICSP connector CON2, but uses dedicated lines for chip selection and enabling (CS/CE). IC2, C7 provides a the stabilized 3V3 power supply for the communication module. Buffer capacitor C8 will protect the µ-controller from resetting (power supply dips) during send bursts. Modules with a booster chip and external antenna should only be used in a setup, where the game modules are physically not too close together (to avoid transmission/reflection problems). With these modules, reliability might also be improved by upgrading capacitor C8 with a higher value (100µF/16V).
 
 ### µ-Controller code
 
