@@ -93,7 +93,7 @@ All information on how to roll-your-own can be found in the [dedicated repositor
 
 [![PCB](images/USBprogrammershield_board-s.png)](images/USBprogrammershield_board.png) [![Schematic](images/USBprogrammershield_schematic-s.png)](images/USBprogrammershield_schematic.png)
 
-The shield has been designed to mechanically fit on top of the µ-controller board by using the available connectors in the central square. These connectors contain all required electrical signals : RX, TX, reset, GND and +5V. The serial converter's DTR-line takes care of the reset signal to launch the bootloader.
+The shield has been designed to mechanically fit on top of the µ-controller board by using the available connectors in the central square. These connectors contain all required electrical signals : RX, TX, reset, GND and +5V. The serial converter's DTR-line takes care of the reset signal to launch the bootloader. The shield transparently feeds through the signals from the I2C and ICSP connectors on the µ-controller board. They can be used as if the shield was not there (except during the uploading of new firmware of course). 
 
 #### 16-digit display module
 
