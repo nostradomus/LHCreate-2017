@@ -87,11 +87,13 @@ All used components are standard types, and can be easily sourced at any electro
 
 #### USB programmer shield
 
-As described in [code for the µ-controller section](#µ-controller-code), the board has been fit with an ICSP-connector for programming through various programming devices. As an extra, a specific USB programmer shield has been developed within the philosophy of the eco-system. When using a µ-controller with proper bootloader, the system can be programmed serially. The USB programmer shield acts as a USB-to-serial converter.
+As described in the [code for the µ-controller section](#µ-controller-code), the board has been fit with an ICSP-connector for programming through various programming devices. As an extra, a specific USB programmer shield has been developed within the philosophy of the eco-system. When using a µ-controller with proper bootloader, the system can be programmed serially. The USB programmer shield acts as a USB-to-serial converter.
 
 All information on how to roll-your-own can be found in the [dedicated repository](https://github.com/nostradomus/LHCreate___usb-programmer-shield).
 
 [![PCB](images/USBprogrammershield_board-s.png)](images/USBprogrammershield_board.png) [![Schematic](images/USBprogrammershield_schematic-s.png)](images/USBprogrammershield_schematic.png)
+
+The shield has been designed to mechanically fit on top of the µ-controller board by using the available connectors in the central square. These connectors contain all required electrical signals : RX, TX, reset, GND and +5V. The serial converter's DTR-line takes care of the reset signal to launch the bootloader.
 
 #### 16-digit display module
 
