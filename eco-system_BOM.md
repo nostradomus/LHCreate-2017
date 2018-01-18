@@ -2,9 +2,9 @@
 
 Part              | Value         | Package            | Description  
 ----------------- | ------------- | ------------------ | -----------  
-R1                | 2k2           | 1206               | capacitor
-R2                | 10kΩ          | 1206               | capacitor
-R3                | 470Ω          | 1206               | capacitor
+R1                | 2k2           | 1206               | resistor
+R2                | 10kΩ          | 1206               | resistor
+R3                | 470Ω          | 1206               | resistor
 C1,2              | 100nF         | 1206               | capacitor
 C3,4              | 22pF          | 1206               | capacitor
 C5,6              | 10µF/16V      | Panasonic type B   | polarized capacitor
