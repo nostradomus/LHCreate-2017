@@ -69,6 +69,8 @@ Decrypt the [visual cryptogram](https://en.wikipedia.org/wiki/Visual_cryptograph
 
 The brain of the system is based on an [ATmega328p](pdf-files/datasheet_-_ATmega328P.pdf) µ-controller (yes, like the [Arduino UNO](https://www.arduino.cc/)). The choice was pretty obvious for multiple reasons. The design is easy, the IDE is well-known, specific libraries exist for the communication with the different displays and addressable RGB LED's.
 
+![PCB with components](images/controller-board_pcb.png)
+
 As the final system should both be easily reproducible, and be of professional build quality, a universal [eco-system](https://en.wikipedia.org/wiki/Digital_ecosystem) has been designed. Below a simulation of the first PCB iteration :
 
 [![PCB - component side](images/component_side-frontal_view-s.png)](images/component_side-frontal_view.png) [![PCB - copper side](images/copper_side-frontal_view-s.png)](images/copper_side-frontal_view.png)
@@ -93,7 +95,7 @@ All information on how to roll-your-own can be found in the [dedicated repositor
 
 [![PCB](images/USBprogrammershield_board-s.png)](images/USBprogrammershield_board.png) [![Schematic](images/USBprogrammershield_schematic-s.png)](images/USBprogrammershield_schematic.png)
 
-The shield has been designed to mechanically fit on top of the µ-controller board by using the available connectors in the central square. These connectors contain all required electrical signals : RX, TX, reset, GND and +5V. The serial converter's DTR-line takes care of the reset signal to launch the bootloader. The shield transparently feeds through the signals from the I2C and ICSP connectors on the µ-controller board. They can be used as if the shield was not there (except during the uploading of new firmware of course). 
+The shield has been designed to mechanically fit on top of the µ-controller board by using the available connectors in the central square. These connectors contain all required electrical signals : RX, TX, reset, GND and +5V. The serial converter's DTR-line takes care of the reset signal to launch the bootloader. The shield transparently feeds through the signals from the I2C and ICSP connectors on the µ-controller board. They can be used as if the shield was not there (except during the uploading of new firmware of course).
 
 #### 16-digit display module
 
