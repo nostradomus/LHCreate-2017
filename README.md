@@ -57,7 +57,7 @@ Decrypt the [visual cryptogram](https://en.wikipedia.org/wiki/Visual_cryptograph
  - [x] publish (cleaned-up) prototype [code for the µ-controller](source/)
  - [ ] design and build a [public-proof housing](#mechanical-construction)
  - [x] design a descent [electronics](#electronics) board
- - [ ] build a proof-of-concept for the final [electronics](#electronics) with appropriate [code for the µ-controller](#µ-controller-code)
+ - [x] build a proof-of-concept for the final [electronics](#electronics) with appropriate [code for the µ-controller](#µ-controller-code)
  - [ ] design and build a [public-proof housing](#mechanical-construction) for the exhibit
  - [ ] write an [end-user manual](https://github.com/nostradomus/LHCreate-2017/wiki)
 
