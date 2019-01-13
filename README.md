@@ -1,5 +1,5 @@
 # [![LHCreate-2017](images/eventLogo-300px.png)](https://lhcreate.web.cern.ch)
-
+![](https://img.shields.io/badge/project%20status-waiting%20for%20mechanical%20contributor-lightgrey.svg)
 ## What
 
 In November 2017, [CMS](https://home.cern/about/experiments/cms) and [ATLAS](https://home.cern/about/experiments/atlas) (both [Cern](https://home.cern) experiments), launched a competition to design an exhibit prototype for the [LHC accelerator](https://home.cern/topics/large-hadron-collider), explaining “**why we do what we do**” at [Cern](https://home.cern).
@@ -154,7 +154,7 @@ When you create your own version, don't forget to send us some nice pictures of 
 
 ## :globe_with_meridians: License
 
-At this moment, there is no specific license attached to this project yet.
+At this moment, there is no specific license attached to this project.
 
 So, today, if you like it, have fun with it (at your own risk of course :-D), and especially, be creative.
 
